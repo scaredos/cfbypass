@@ -41,4 +41,4 @@ else:
     print "Hostname and IP behind Cloudflare - "+ip
     os.exit()
     # END OF VERBOSITY 2
-os.exit()
+os.quit()
