@@ -1,9 +1,9 @@
-## CFBypass Beta v1.BETA
+## CFBypass Beta v1.MAIN
 # Coded on 6/9/2019
 # Inspired by CloudSearch.cf
 # Author = SmallDoink
 # Date = 6/9/2019
-# Version = v1.LINUX
+# Version = v1.MAIN
 # Imports
 import os
 import socket
@@ -18,17 +18,23 @@ print """
 \     ||  |   |     ||     ||  |  |  |  |\    |\    |
  \____||__|   |_____||____/ |__|  |__|__| \___| \___|
 
-    CFBypass - CloudFlare Bypass - Version v1.BETA
+    CFBypass - CloudFlare Bypass - Version v1.MAIN
                 Author - SmallDoink#1102
 """
 i = raw_input("Website Name> ")
 v = raw_input("Verbosity> ")
-if verbosity <= 1:
+if verbosity == 1:
     websitename = "i"
     ip = socket.gethostbyaddr('ssh.'+i)
     print "IP Behind Cloudflare - "+ip
     os.exit()
     # END OF VERBOSITY 1
+elif verbosity == 0:
+    websitename = "i"
+    ip = socket.gethostbyaddr('ssh.'+i)
+    print "IP Behind Cloudflare - "+ip
+    os.exit()
+    # END OF VERBOSITY 0
 else:
     websitename = "i"
     ip = socket.gethostbyname('ssh.'+i)
