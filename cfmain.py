@@ -27,18 +27,18 @@ if v == 1:
     websitename = "i"
     ip = socket.gethostbyaddr('ssh.'+i)
     print "IP Behind Cloudflare - "+ip
-    os.exit()
+    os.quit()
     # END OF VERBOSITY 1
 elif v == 0:
     websitename = "i"
     ip = socket.gethostbyaddr('ssh.'+i)
     print "IP Behind Cloudflare - "+ip
-    os.exit()
+    os.quit()
     # END OF VERBOSITY 0
 else:
     websitename = "i"
     ip = socket.gethostbyname('ssh.'+i)
     print "Hostname and IP behind Cloudflare - "+ip
-    os.exit()
+    os.quit()
     # END OF VERBOSITY 2
 
