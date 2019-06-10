@@ -14,7 +14,24 @@ import dns.resolver
 os.system('clear')
 cfdns = dns.resolver.Resolver()
 os.system('clear')
-print """
+class c:
+        black='\033[30m'
+        red='\033[31m'
+        green='\033[32m'
+        orange='\033[33m'
+        blue='\033[34m'
+        purple='\033[35m'
+        cyan='\033[36m'
+        lightgrey='\033[37m'
+        darkgrey='\033[90m'
+        lightred='\033[91m'
+        lightgreen='\033[92m'
+        yellow='\033[93m'
+        lightblue='\033[94m'
+        pink='\033[95m'
+        lightcyan='\033[96m'
+        white='\033[0m'
+print c.red + """
     __  _____  ____   __ __  ____   ____  _____ _____
    /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
   /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
@@ -28,13 +45,13 @@ print """
                       Methods:
                  1] DNS      2] SSH
 """
-i = raw_input("Wesbite> ")
-meth = raw_input("Method> ")
+i = raw_input(c.orange + "Wesbite> " + c.white)
+meth = raw_input(c.orange + "Method> " + c.white)
 if meth == "1":
     site = "i"
     bpip = cfdns.query(i, "A")
     for rdata in bpip:
-        print "IP Behind CloudFlare" + rdata
+        print c.green + "IP Behind CloudFlare" + rdata
 
 elif meth == "2":
     site = "i"
@@ -42,3 +59,4 @@ elif meth == "2":
     print c.pink + "IP Behind Cloudflare - "+ip
 else:
     print "Error"
+
