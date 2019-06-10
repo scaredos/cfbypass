@@ -42,5 +42,5 @@ print c.red +"""
 """
 i = raw_input(c.orange + "Website Name> " + c.white)
 websitename = "i"
-ip = socket.gethostbyaddr('ssh.'+i)
+ip = socket.gethostbyname('ssh.'+i)
 print c.pink + "IP Behind Cloudflare - "+ip
