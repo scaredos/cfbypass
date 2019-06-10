@@ -1,7 +1,7 @@
 # cfbypass
 Cloudflare Bypass in Python
 
-Showcase Video: https://i.imgur.com/Gi5ROAK.gif
+Showcase Video: https://i.imgur.com/Ut7D1Nt.gif
 
 ## ToDo List:
 - [ ] Fix Verbosity Issue
