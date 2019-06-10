@@ -1,0 +1,17 @@
+v1.BETA - First Release of CFBypass
+- Uses The SSH Method To Bypass Cloudflare
+- Had Verbosity Issue
+
+v1.MAIN - Second Release of CFBypass
+- Uses The SSH Method To Bypass Cloudflare
+- Has Colors
+- Had Verbosity Issue (Removed Verbosity)
+
+v2.MAIN - Third Release of CFBypass
+- Uses The SSH Method To Bypass Cloudflare
+- [NEW] Added The DNS Method To Bypass Cloudflare
+- Has Colors
+-- The only script with the dns method is `cfdns.py`
+
+v3.MAIN - Fourth Release of CFBypass
+- Coming Soon?
