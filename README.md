@@ -3,6 +3,11 @@ Cloudflare Bypass in Python
 
 Showcase Video: https://i.imgur.com/Gi5ROAK.gif
 
+## ToDo List:
+- [ ] Fix Verbosity Issue
+- [x] Fix Color Issue
+- [ ] Add Multiple Headers
+
 ### Simplest Way In The World To Bypass Cloudflare
 In The Command Line:
 ```
