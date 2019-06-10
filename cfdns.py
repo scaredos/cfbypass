@@ -51,7 +51,8 @@ if meth == "1":
     site = "i"
     bpip = cfdns.query(i, "A")
     for rdata in bpip:
-        print c.green + "IP Behind CloudFlare" + rdata
+        print c.green + "IP Behind CloudFlare"
+        print rdata
 
 elif meth == "2":
     site = "i"
