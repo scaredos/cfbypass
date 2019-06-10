@@ -1,13 +1,17 @@
-# cfbypass
+# cfbypass 
+Version v2.MAIN
+--
 Cloudflare Bypass in Python
 
 Showcase Video: https://i.imgur.com/Ut7D1Nt.gif
 
 # Prerequistes
-Absolutely None
-
+```
+dnspython
+```
 # To Install
 ```
+pip install dnspython
 git clone https://github.com/scaredos/cfbypass
 ```
 
@@ -22,6 +26,7 @@ py cfmain.py
 - [ ] Fix Verbosity Issue
 - [x] Fix Color Issue
 - [ ] Add Multiple Headers
+- [x] Add DNS Method
 
 ### My Social Media's 
 Instagram: [ScaredKYS](https://instagram.com/scaredkys).
