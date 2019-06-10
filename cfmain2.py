@@ -42,12 +42,12 @@ print c.red +"""
 """
 i = raw_input(c.orange + "Website Name> " + c.white)
 v = raw_input(c.orange + "Verbosity> " + c.white)
-if verbosity == 1:
+if v == 1:
     websitename = "i"
     ip = socket.gethostbyaddr('ssh.'+i)
     print c.pink + "IP Behind Cloudflare - "+ip
     # END OF VERBOSITY 1
-elif verbosity == 0:
+elif v == 0:
         websitename = "i"
         ip = socket.gethostbyaddr('ssh.'+i)
         print c.pink + "IP Behind Cloudflare - "+ip
