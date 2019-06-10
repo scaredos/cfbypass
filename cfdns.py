@@ -1,15 +1,15 @@
-## CFBypass DNS Method v2.BETA 
+## CFBypass DNS Method v2.BETA
 # Coded 6/10/19
 # Inspired by CloudSearch.cf
 # Author = SmallDoink
 # Date = 6/10/19
-# Version = v2.BETA 
-# Updated: Added DNS Method 
-# Imports 
+# Version = v2.BETA
+# Updated: Added DNS Method
+# Imports
 import os
-import socket 
+import socket
 import dns.resolver
-# End Imports 
+# End Imports
 # Start Setup
 os.system('clear')
 cfdns = dns.resolver.Resolver()
@@ -26,15 +26,19 @@ print """
     CFBypass - CloudFlare Bypass - Version v2.MAIN
                 Author - SmallDoink#1102
                       Methods:
-                    DNS      SSH 
+                 1] DNS      2] SSH
 """
-site = raw_input("Wesbite> ")
+i = raw_input("Wesbite> ")
 meth = raw_input("Method> ")
-if meth == "dns":
-    bpip = cfdns.query(site, "A")
+if meth == "1":
+    site = "i"
+    bpip = cfdns.query(i, "A")
     for rdata in bpip:
         print "IP Behind CloudFlare" + rdata
-else:
-    site = i 
+
+elif meth == "2":
+    site = "i"
     ip = socket.gethostbyname('ssh.'+i)
     print c.pink + "IP Behind Cloudflare - "+ip
+else:
+    print "Error"
