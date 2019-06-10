@@ -59,5 +59,5 @@ elif meth == "2":
     ip = socket.gethostbyname('ssh.'+i)
     print c.pink + "IP Behind Cloudflare - "+ip
 else:
-    print "Error"
+    print c.red + "[!] Error | Please use a listed method"
 
