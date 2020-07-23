@@ -11,15 +11,13 @@ dnspython
 ```
 # To Install
 ```
-pip install dnspython
-git clone https://github.com/scaredos/cfbypass
+pip install dnspython && git clone https://github.com/scaredos/cfbypass
 ```
 
-### Simplest Way In The World To Bypass Cloudflare
+### Easiest way to bypass CloudFlare
 In The Command Line:
 ```
 python cfmain.py
-py cfmain.py
 ```
 
 ## ToDo List:
@@ -29,7 +27,4 @@ py cfmain.py
 - [x] Add DNS Method
 
 ### My Social Media's 
-Instagram: [ScaredKYS](https://instagram.com/scaredkys).
-Twitter: [FuckBinary](https://twitter.com/fuckbinary).
-Pastebin: [ScaredKYS](https://pastebin.com/u/scaredkys).
-Email: scaredkys@protonmail.com
+Email: [scared@tuta.io](mailto:scared@tuta.io)
